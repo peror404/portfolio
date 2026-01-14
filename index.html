@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <!-- MOBILE VIEWPORT -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover"
+    />
+
+    <title>Harshit Pathak's Portfolio</title>
+
+    <meta name="theme-color" content="#0f0f1a" />
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" crossorigin href="/assets/index-WjnpMrKz.css" />
+
+    <!-- 🔥 MOBILE FIXES (DESKTOP SAFE) -->
+    <style>
+      /* Prevent horizontal scroll */
+      html,
+      body {
+        width: 100%;
+        overflow-x: hidden;
+      }
+
+      /* MOBILE ONLY FIXES */
+      @media (max-width: 768px) {
+        /* Root container safety */
+        #root {
+          width: 100%;
+          overflow-x: hidden;
+        }
+
+        /* HERO SECTION FIX */
+        .hero,
+        .hero-container,
+        .hero-content {
+          flex-direction: column !important;
+          align-items: center !important;
+          text-align: center !important;
+          width: 100% !important;
+        }
+
+        /* PROFILE IMAGE CENTER + SCALE */
+        .hero img,
+        .profile-image,
+        .hero-avatar {
+          width: 220px !important;
+          height: 220px !important;
+          max-width: 80vw !important;
+          margin: 20px auto !important;
+        }
+
+        /* NAME TEXT */
+        h1,
+        .hero-title {
+          font-size: 1.8rem !important;
+          line-height: 1.2 !important;
+          white-space: normal !important;
+        }
+
+        /* SUBTITLE */
+        .hero-subtitle,
+        h2 {
+          font-size: 1rem !important;
+          line-height: 1.4 !important;
+        }
+
+        /* PARAGRAPH WIDTH FIX */
+        p {
+          max-width: 90vw !important;
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+
+        /* BUTTON STACKING */
+        .hero-buttons,
+        .button-group {
+          flex-direction: column !important;
+          gap: 12px !important;
+          width: 100% !important;
+        }
+
+        /* BUTTON FULL WIDTH */
+        button,
+        .btn {
+          width: 90% !important;
+          max-width: 320px !important;
+          margin: 0 auto !important;
+        }
+
+        /* SOCIAL ICONS CENTER */
+        .social-icons,
+        .social-links {
+          justify-content: center !important;
+          gap: 14px !important;
+        }
+      }
+    </style>
+
+    <!-- JS -->
+    <script type="module" crossorigin src="/assets/index-B7cIL80Y.js"></script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
